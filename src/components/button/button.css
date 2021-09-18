@@ -1,8 +1,75 @@
-.btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: #016b6b;
-  border: none;
-  padding: 10px 20px;
+/* .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn, .btn:link, .btn:hover, .btn:focus {
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  padding: 14px 23px;
+  font-size: 1rem;
+  line-height: 1.14em;
+  font-family: "PwC Helvetica Neue",Arial,Sans-Serif;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background .2s ease-out;
+}
+
+.btn--transparent {
+  background: transparent;
+  border: 1px solid #7d7d7d;
+  color: #2d2d2d;
+}
+
+.btn--transparent {
+  font-size: .875rem;
+  color: #2d2d2d;
+  background: #fff;
+  border: 0;
+  margin-top: 8px;
+  padding: 16px 23px 16px 24px;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.btn--transparent {
+    color: #fff;
+  background: #2d2d2d;
+} */
+
+.btn-arrow {
+  transform: rotate(
+-45deg);
+}
+.hero-promo__title-btn i {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 8px;
+  height: 8px;
+  margin-left: 7px;
+  margin-bottom: 1px;
+}
+ .hero-promo__title-btn i {
+  transition: all .3s ease-in-out;
+  transition-delay: .2s;
 }

@@ -7,5 +7,6 @@ module.exports = {
     "@storybook/addon-actions",
     "@storybook/addon-design-assets/register",
     "@storybook/addon-notes/register",
+    '@whitespace/storybook-addon-html',
   ],
 };
